@@ -36,6 +36,12 @@ module.exports = {
       network_id: '50',
       gas: 6700000
     },
+    localdev: {
+      host: 'localhost',
+      port: 7545,
+      network_id: '5777',
+      gas: 6700000
+    },
     coverage: {
       host: 'localhost',
       port: 8545,
@@ -99,7 +105,7 @@ module.exports = {
   },
   compilers: {
     solc: {
-      version: '0.7.5',
+      version: '0.8.5',
       settings: {
         optimizer: {
           enabled: true,
